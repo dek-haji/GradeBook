@@ -17,9 +17,9 @@ namespace Gradebook
             {
                 result += number;
             }
-
-            Console.WriteLine(result);
-
+            result /= grades.Count;
+            //we using N1 to get only the first digit after the decemal.
+            Console.WriteLine($" The average grade of the students is {result:N1}");
 
         }
     }
