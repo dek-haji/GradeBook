@@ -8,8 +8,8 @@ namespace Gradebook
         static void Main(string[] args)
         {
             var book = new Book();
-            Book book2 = null;
-            book2.AddGrade(90.1);
+            // Book book2 = null;
+            // book2.AddGrade(90.1);
             book.AddGrade(21.4);
             //to initialize a property you have to use the  new keyword
         //using List
