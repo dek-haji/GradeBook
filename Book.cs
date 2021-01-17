@@ -16,6 +16,7 @@ namespace Gradebook
                    Console.WriteLine($"the new grade is {grade}");
                }
         }
-        List<double> grades;
+        List<double> grades = new List<double>();
+
     }
 }

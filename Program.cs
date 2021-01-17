@@ -8,9 +8,12 @@ namespace Gradebook
         static void Main(string[] args)
         {
             var book2 = new Book();
+            var name = new Names();
             var book = new Book();
             book2.AddGrade(32.4);
             book.AddGrade(33.2);
+            name.AddName("Sahra");
+
             if(book2 == null) {
                 Console.WriteLine("its not working because is a null");
             }
