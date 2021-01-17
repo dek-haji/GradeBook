@@ -7,10 +7,13 @@ namespace Gradebook
     {
         static void Main(string[] args)
         {
+            var book2 = new Book();
             var book = new Book();
-            // Book book2 = null;
-            // book2.AddGrade(90.1);
-            book.AddGrade(21.4);
+            book2.AddGrade(32.4);
+            book.AddGrade(33.2);
+            if(book2 == null) {
+                Console.WriteLine("its not working because is a null");
+            }
             //to initialize a property you have to use the  new keyword
         //using List
         //List requires 1 type of argument.

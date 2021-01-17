@@ -5,6 +5,11 @@ namespace Gradebook
 {
     class Book
     {
+        //creating a cnstructor method
+        public Book()
+        {
+            var grades = new List<double>();
+        }
         public void AddGrade(double grade) {
                if(grade >= 0) {
                    grades.Add(grade);
