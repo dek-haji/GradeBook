@@ -35,7 +35,7 @@ namespace Gradebook
         public void AddGrade(double grade) {
                if(grade >= 0) {
                    grades.Add(grade);
-                   Console.WriteLine($"the new grade is {grade}");
+                   Console.WriteLine($"the new grade is :{grade}");
                }
         }
     }
